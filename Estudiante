@@ -40,7 +40,7 @@ public class Estudiante {
         // Calcular la media
         media = suma / notas.length;
 
-        // Mostrar la media
+        // Mostrar la media y nota final
         System.out.printf("Nota media del curso: %.2f %n", media);
 
         
