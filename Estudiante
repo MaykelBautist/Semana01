@@ -43,7 +43,7 @@ public class Estudiante {
         // Mostrar la media
         System.out.printf("Nota media del curso: %.2f %n", media);
 
-        // Mostrar los valores superiores a la media
+        
         System.out.println("Listado de notas superiores a la media: ");
         for (i = 0; i < notas.length; i++) {
             if (notas[i] > media) {
