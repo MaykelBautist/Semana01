@@ -25,7 +25,8 @@ public class Estudiante {
         //se crea un array llamado notas de numAlumn elementos de tipo double
         double[] notas = new double[numAlum]; 
         
-        // Entrada de datos. Se lee la nota de cada alummo y se guarda
+        // Entrada de datos. Se lee la nota de cada alummo y se guard
+        
         // en cada elemento del array
         for (i = 0; i < notas.length; i++) {
             System.out.print("Alumno " + (i + 1) + " Nota final: ");
@@ -34,7 +35,9 @@ public class Estudiante {
 
         // Sumar todas las notas
         for (i = 0; i < notas.length; i++) {
-            suma = suma + notas[i];
+            suma = suma + notas[i]; 
+            //Si desaprobo
+            suma=suma;
         }
 
         // Calcular la media
